@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "jupyter-advanced-latex"
-version = "0.1.0"
+version = "0.1.1"
 description = "IPython magic commands for advanced LaTeX rendering via plasTeX, providing support for displaying tables and figures as HTML."
 readme = "README.md"
 requires-python = ">=3.9"
@@ -23,7 +23,6 @@ classifiers = [
 ]
 
 dependencies = [
-  "ipython>=8.0",
   "plasTeX>=3.1",
 ]
 

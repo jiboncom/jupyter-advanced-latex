@@ -10,7 +10,7 @@ pip install jupyter-advanced-latex
 
 ## Demo
 
-<https://github.com/jiboncom/jupyter-advanced-latex/blob/demo/usage.ipynb>
+<https://github.com/jiboncom/jupyter-advanced-latex/blob/main/demo/usage.ipynb>
 
 ## Usage
 

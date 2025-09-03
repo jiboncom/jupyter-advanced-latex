@@ -1,0 +1,21 @@
+# pyproject.toml
+[build-system]
+requires = ["hatchling>=1.18"]
+build-backend = "hatchling.build"
+
+[project]
+name = "jupyter-advanced-latex"
+version = "0.1.0"
+description = "IPython magic commands for advanced LaTeX rendering via plasTeX, providing support for displaying tables and figures as HTML."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "Apache 2.0"}
+authors = [{name="Javier Boncompte", email="jiboncom@gmail.com"}]
+dependencies = [
+  "ipython>=8.0",
+  "plasTeX>=3.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/jiboncom/jupyter-advanced-latex"
+Issues = "https://github.com/jiboncom/jupyter-advanced-latex/issues"
